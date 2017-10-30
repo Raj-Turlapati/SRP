@@ -17,7 +17,7 @@ namespace SRPDemo
             Console.WriteLine(" Under Weight =< 18.5 \n Normal Weight > 18.5 And <= 24.9 \n Overweight > 25 And <= 29.9 \n Obesity >=30\n");
             Console.WriteLine("********* End of BMI Categories *********** \n");
 
-            ICalculate bmiCalculator = new BMICalculator();
+            BMICalculator bmiCalculator = new BMICalculator();
 
             Console.WriteLine("Enter weight in Kilog grams...");
 

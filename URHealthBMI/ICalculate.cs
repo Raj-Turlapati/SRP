@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace URHealth.Service.BMI
 {
     public interface ICalculate
-    {
-        float WeightInKg{get; set;}
-        float HeightInMeters { get; set;}
+    {      
         float Calculate();
     }
 }
